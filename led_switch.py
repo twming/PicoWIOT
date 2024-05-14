@@ -7,13 +7,13 @@ import sys
 
 sensor=dht.DHT11(Pin(4))
 
-WIFI_SSID = "M1-Nautilus"
-WIFI_PASSWORD = "GoMicron88"
+WIFI_SSID = "xxxxx"
+WIFI_PASSWORD = "xxxxx"
 
 mqtt_client_id = bytes('client_'+'12322','utf-8')
 ADAFRUIT_IO_URL = 'io.adafruit.com'
-ADAFRUIT_USERNAME = "twming"
-ADAFRUIT_IO_KEY = "aio_pTfe716G4q7LzRB8Owe8n3ECPdku"
+ADAFRUIT_USERNAME = "xxxxx"
+ADAFRUIT_IO_KEY = "xxxxx"
 
 TEMP_FEED_ID = 'temperature'
 HUM_FEED_ID = 'humidity'
