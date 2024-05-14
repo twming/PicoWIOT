@@ -7,11 +7,11 @@ import sys
 
 sensor=dht.DHT11(Pin(4))
 
-WIFI_SSID = "M1-Nautilus"
-WIFI_PASSWORD = "GoMicron88"
+WIFI_SSID = "xxxxx"
+WIFI_PASSWORD = "xxxxx"
 
 HTTP_HEADERS = {'Content-Type': 'application/json'} 
-THINGSPEAK_WRITE_API_KEY = 'W60VAR2QV8M4KUB8'  
+THINGSPEAK_WRITE_API_KEY = 'xxxxx'  
 
 def connect_wifi():
 	wifi=network.WLAN(network.STA_IF)
