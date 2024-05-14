@@ -9,7 +9,7 @@ print('Network connecting ...')
 
 if (not wifi.isconnected()):
     while(not wifi.isconnected() and counter<=5):
-        wifi.connect('M1-Nautilus', 'GoMicron88')
+        wifi.connect('xxxxx', 'xxxxx')
         counter=counter+1
         sleep(1)    
     
