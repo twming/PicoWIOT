@@ -8,12 +8,12 @@ import sys
 sensor=dht.DHT11(Pin(4))
 
 WIFI_SSID = "xxxx"
-WIFI_PASSWORD = "xxxxx"
+WIFI_PASSWORD = "xxxx"
 
 mqtt_client_id = bytes('client_'+'12322','utf-8')
 ADAFRUIT_IO_URL = 'io.adafruit.com'
-ADAFRUIT_USERNAME = "xxxxx"
-ADAFRUIT_IO_KEY = "xxxxxx"
+ADAFRUIT_USERNAME = "xxxx"
+ADAFRUIT_IO_KEY = "xxxx"
 
 LED_FEED_ID = 'led'
 led_feed = bytes('{:s}/feeds/{:s}'.format(ADAFRUIT_USERNAME,LED_FEED_ID),'utf-8')
