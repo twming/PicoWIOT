@@ -7,13 +7,13 @@ import sys
 
 sensor=dht.DHT11(Pin(4))
 
-WIFI_SSID = "xxxxx"
-WIFI_PASSWORD = "xxxxx"
+WIFI_SSID = "xxxx"
+WIFI_PASSWORD = "xxxx"
 
 mqtt_client_id = bytes('client_'+'12322','utf-8')
 ADAFRUIT_IO_URL = 'io.adafruit.com'
-ADAFRUIT_USERNAME = "xxxxx"
-ADAFRUIT_IO_KEY = "xxxxx"
+ADAFRUIT_USERNAME = "xxxx"
+ADAFRUIT_IO_KEY = "xxxx"
 
 TEMP_FEED_ID = 'temperature'
 HUM_FEED_ID = 'humidity'
